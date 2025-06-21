@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body, .stApp {
+    background-color: #121212;
+    color: #f0f0f0;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+h1, h2, h3 {
+    color: #90caf9;
+    font-weight: 600;
+}
+
+div[data-testid="stSidebar"] {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+}
+
+button, .stButton > button {
+    background-color: #1f6feb !important;
+    color: #ffffff !important;
+    border-radius: 10px !important;
+    padding: 0.6rem 1.2rem !important;
+    font-weight: 600 !important;
+    font-size: 1rem !important;
+    border: none !important;
+    transition: 0.2s ease-in-out;
+}
+button:hover, .stButton > button:hover {
+    background-color: #3686ff !important;
+    transform: scale(1.03);
+}
+
+input, textarea, .stTextInput input, .stTextArea textarea {
+    background-color: #1e1e1e !important;
+    color: #f0f0f0 !important;
+    border: 1px solid #444 !important;
+    font-size: 1rem !important;
+}
+
+.stFileUploader, .stTextInput, .stTextArea {
+    background-color: #1e1e1e !important;
+    color: #f0f0f0 !important;
+}
+
+.css-1kyxreq {
+    background-color: #1e1e1e !important;
+    border: 1px solid #444 !important;
+}
+
+.intro-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #cccccc;
+    background-color: #1e1e1e;
+    padding: 1.2rem;
+    border-left: 5px solid #00f5d4;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+label, .stTextInput label, .stTextArea label {
+    color: #f0f0f0 !important;
+    font-weight: 500 !important;
+    font-size: 0.95rem !important;
+}
+
+div[data-testid="stFileUploader"] > div {
+    background-color: #1e1e1e !important;
+    border: 1px solid #444 !important;
+    border-radius: 8px;
+    padding: 1rem;
+    color: #f0f0f0 !important;
+}
+
+.stTextInput > div > div > div:nth-child(2) {
+    background-color: transparent !important;
+}
+.stTextInput svg {
+    color: #f0f0f0 !important;
+}
+

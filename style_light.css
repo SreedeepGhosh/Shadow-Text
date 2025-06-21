@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body, .stApp {
+    background-color: #fdf7f0;
+    color: #1a1a1a;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+h1, h2, h3 {
+    color: #0077cc;
+    font-weight: 600;
+}
+
+div[data-testid="stSidebar"] {
+    background-color: #f2f2f2;
+    color: #1a1a1a;
+}
+
+button, .stButton > button {
+    background-color: #0077cc !important;
+    color: #ffffff !important;
+    border-radius: 10px !important;
+    padding: 0.6rem 1.2rem !important;
+    font-weight: 600 !important;
+    font-size: 1rem !important;
+    border: none !important;
+    transition: 0.2s ease-in-out;
+}
+button:hover, .stButton > button:hover {
+    background-color: #005fa3 !important;
+    transform: scale(1.03);
+}
+
+input, textarea, .stTextInput input, .stTextArea textarea {
+    background-color: #ffffff !important;
+    color: #1a1a1a !important;
+    border: 1px solid #bbb !important;
+    font-size: 1rem !important;
+}
+
+.stFileUploader, .stTextInput, .stTextArea {
+    background-color: #ffffff !important;
+    color: #1a1a1a !important;
+}
+
+.css-1kyxreq {
+    background-color: #ffffff !important;
+    border: 1px solid #bbb !important;
+}
+
+.intro-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #eef3f7;
+    padding: 1.2rem;
+    border-left: 5px solid #0077cc;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+label, .stTextInput label, .stTextArea label {
+    color: #1a1a1a !important;
+    font-weight: 500 !important;
+    font-size: 0.95rem !important;
+}
+
+div[data-testid="stFileUploader"] > div {
+    background-color: #fdf7f0 !important; /* Light cream */
+    border: 1px solid #ccc !important;
+    border-radius: 8px;
+    padding: 1rem;
+    color: #1a1a1a !important;
+}
+
+.stTextInput > div > div > div:nth-child(2) {
+    background-color: transparent !important;
+}
